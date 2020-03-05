@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace Cilindro
 {
     class Program
@@ -26,8 +27,8 @@ namespace Cilindro
 
             //Contas
 
-            v = pi * r * r * a;
-            surfArea = 2 * pi * r * (r+a);
+            v = (float)Math.PI * r * r * a;
+            surfArea = 2 * (float)Math.PI * r * (r+a);
 
             //Resultados
 
