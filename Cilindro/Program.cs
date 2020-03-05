@@ -17,7 +17,7 @@ namespace Cilindro
             
             Console.WriteLine("Write the height ");
             aString = Console.ReadLine();
-            Console.WriteLine("Insert the ray ");
+            Console.WriteLine("Insert the radius ");
             rString = Console.ReadLine();
 
             // Coverter os dados
@@ -27,8 +27,8 @@ namespace Cilindro
 
             //Contas
 
-            v = (float)Math.PI * r * r * a;
-            surfArea = 2 * (float)Math.PI * r * (r+a);
+            v = (float) (Math.PI * r * r * a);
+            surfArea =(float) (2 * Math.PI * r * (r+a));
 
             //Resultados
 
